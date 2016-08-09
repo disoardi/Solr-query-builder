@@ -1,0 +1,28 @@
+{
+  "name": "Solr-query-builder",
+  "version": "0.0.1",
+  "description": "Solr query builder for Rio Real Time Dashboard",
+  "dependencies" :
+    {
+        "express" : "latest",
+        "http" : "latest",
+        "socket.io" : "latest",
+        "solr-client" : "latest",
+        "solr-query-builder" : "latest",
+        "path" : "latest"
+    },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/disoardi/Solr-query-builder.git"
+  },
+  "author": "Davide Isoardi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/disoardi/Solr-query-builder/issues"
+  }
+}
